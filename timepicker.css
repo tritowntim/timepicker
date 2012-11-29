@@ -1,0 +1,53 @@
+form {
+	width:60%;
+	margin:100px auto 0;
+}
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+input {
+	font-size: 14px;
+}
+
+#timepicker {
+	width: 120px;
+	height: 235px;
+	border: 1px solid black; 
+	z-index: 0;
+}
+
+#timepicker div {
+	float:left;
+	margin: 10px;
+	height: 100%;
+	text-align: right;
+	min-height:200px;
+}
+
+#timepicker a {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+}
+
+#timepicker a {
+	color:blue;
+}
+
+#timepicker a:hover {
+	font-weight: bold;
+}
+
+.timepicker-hide {
+	display:none;
+}
+
+.timepicker-show {
+	display:block;
+	position: absolute;
+	/*right: 10px;*/
+	/*top: 10px;*/
+}
+
